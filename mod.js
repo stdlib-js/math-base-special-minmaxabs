@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-var r=function(r){return r!=r};var n=function(r){return Math.abs(r)},u=Number.POSITIVE_INFINITY,t=r,e=n,a=u;var f=function(r,n,u){var f,N,i,o,p,h,l,v;if(2===(f=arguments.length))return o=e(n),r[0]=o,r[1]=o,r;if(3===f)return t(n)||t(u)?(r[0]=NaN,r[1]=NaN,r):(o=e(n))<(p=e(u))?(r[0]=o,r[1]=p,r):(r[0]=p,r[1]=o,r);for(N=a,i=0,v=0;v<f;v++){if(t(l=arguments[v]))return r[0]=NaN,r[1]=NaN,r;(h=e(l))<N&&(N=h),h>i&&(i=h)}return r[0]=N,r[1]=i,r};var N=function(r,n,u){var t,e,a,N;if(1===(a=arguments.length))return f([0,0],r);if(t="number"==typeof arguments[0],2===a)return t?f([0,0],r,n):f(r,n);if(3===a)return t?f([0,0],r,n,u):f(r,n,u);for(t?((e=[]).push([0,0]),N=0):((e=[]).push(arguments[0]),N=1);N<a;N++)e.push(arguments[N]);return f.apply(null,e)};export{N as default};
-//# sourceMappingURL=mod.js.map
