@@ -60,7 +60,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var minmaxabs = require( '@stdlib/math-base-special-minmaxabs' );
 ```
 
-#### minmaxabs( \[x\[, y\[, ...args]]] )
+#### minmaxabs( x, y )
 
 Returns the minimum and maximum absolute values in a single pass.
 
@@ -70,9 +70,6 @@ var v = minmaxabs( 4.2, 3.14 );
 
 v = minmaxabs( +0.0, -0.0 );
 // returns [ 0.0, 0.0 ]
-
-v = minmaxabs( 4.2, 3.14, -1.0, -6.8 );
-// returns [ 1.0, 6.8 ]
 ```
 
 If any argument is `NaN`, the function returns `NaN` for both the minimum value and the maximum value.
@@ -85,7 +82,7 @@ v = minmaxabs( NaN, 3.14 );
 // returns [ NaN, NaN ]
 ```
 
-#### minmaxabs.assign( \[x\[, y\[, ...args]]], out, stride, offset )
+#### minmaxabs.assign( x, y, out, stride, offset )
 
 Returns the minimum and maximum absolute values in a single pass and assigns results to a provided output array.
 
@@ -94,7 +91,7 @@ var Float64Array = require( '@stdlib/array-float64' );
 
 var out = new Float64Array( 2 );
 
-var v = minmaxabs.assign( 5.0, 3.0, -2.0, 1.0, out, 1, 0 );
+var v = minmaxabs.assign( 5.0, -1.0, out, 1, 0 );
 // returns <Float64Array>[ 1.0, 5.0 ]
 
 var bool = ( v === out );
@@ -108,10 +105,6 @@ var bool = ( v === out );
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
-
-## Notes
-
--   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), positive infinity is the greatest lower bound and negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, positive infinity is the identity element for the minimum and negative infinity is the identity element for the maximum, and thus, if not provided any arguments, the function returns positive infinity for both the minimum and maximum absolute values.
 
 </section>
 
