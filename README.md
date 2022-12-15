@@ -60,7 +60,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var minmaxabs = require( '@stdlib/math-base-special-minmaxabs' );
 ```
 
-#### minmaxabs( x\[, y\[, ...args]] )
+#### minmaxabs( \[x\[, y\[, ...args]]] )
 
 Returns the minimum and maximum absolute values in a single pass.
 
@@ -85,7 +85,7 @@ v = minmaxabs( NaN, 3.14 );
 // returns [ NaN, NaN ]
 ```
 
-#### minmaxabs.assign( x\[, y\[, ...args]], out, stride, offset )
+#### minmaxabs.assign( \[x\[, y\[, ...args]]], out, stride, offset )
 
 Returns the minimum and maximum absolute values in a single pass and assigns results to a provided output array.
 
@@ -108,6 +108,10 @@ var bool = ( v === out );
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
+
+## Notes
+
+-   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), positive infinity is the greatest lower bound and negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, positive infinity is the identity element for the minimum and negative infinity is the identity element for the maximum, and thus, if not provided any arguments, the function returns positive infinity for both the minimum and maximum absolute values.
 
 </section>
 
