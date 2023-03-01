@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minmaxabs"
-click B href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/main"
-click C href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/production"
-click D href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/esm"
-click E href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/deno"
-click F href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minmaxabs"
+%% click B href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/main"
+%% click C href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/production"
+%% click D href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/esm"
+%% click E href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/deno"
+%% click F href "https://github.com/stdlib-js/math-base-special-minmaxabs/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minmaxabs
