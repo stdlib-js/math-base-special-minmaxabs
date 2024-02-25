@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-minmaxabs/tags). For example,
+
+```javascript
 import minmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@v0.2.1-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@esm/index.mjs';
 ```
 
 #### minmaxabs( x, y )
@@ -126,7 +131,7 @@ var bool = ( v === out );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import minmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@v0.2.1-esm/index.mjs';
+import minmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabs@esm/index.mjs';
 
 var x;
 var y;
