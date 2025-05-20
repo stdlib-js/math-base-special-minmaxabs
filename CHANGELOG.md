@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`28b8375`](https://github.com/stdlib-js/stdlib/commit/28b837504e216bf5b5175226511777575b4edc2a) - **docs:** remove args parameter to match TS declaration _(by Karan Anand)_
 -   [`a9d4530`](https://github.com/stdlib-js/stdlib/commit/a9d4530c9e486f49e6d13b8bd2d3dfaeda41cb06) - **docs:** update example and function description _(by Karan Anand)_
 -   [`5b8deb1`](https://github.com/stdlib-js/stdlib/commit/5b8deb1707b3e84534d70d2ac20253de39151947) - **bench:** update random value generation [(#6381)](https://github.com/stdlib-js/stdlib/pull/6381) _(by Harsh)_
 
