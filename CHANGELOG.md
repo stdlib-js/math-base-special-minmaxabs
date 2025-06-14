@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`acc9ca5`](https://github.com/stdlib-js/stdlib/commit/acc9ca54a5182bb8792696aecb1beaca0edddcab) - **bench:** fix passed arguments _(by Karan Anand)_
 -   [`9972161`](https://github.com/stdlib-js/stdlib/commit/9972161c7c945bf3ab1229fb40129c1107d5918b) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`8f57742`](https://github.com/stdlib-js/stdlib/commit/8f577423535f8ef0639a0306538771f980af6fbb) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - **feat:** add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983) _(by Karan Anand)_
