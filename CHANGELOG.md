@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-14)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -28,7 +28,7 @@
 -   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - **feat:** add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983) _(by Karan Anand)_
 -   [`28b8375`](https://github.com/stdlib-js/stdlib/commit/28b837504e216bf5b5175226511777575b4edc2a) - **docs:** remove args parameter to match TS declaration _(by Karan Anand)_
 -   [`a9d4530`](https://github.com/stdlib-js/stdlib/commit/a9d4530c9e486f49e6d13b8bd2d3dfaeda41cb06) - **docs:** update example and function description _(by Karan Anand)_
--   [`5b8deb1`](https://github.com/stdlib-js/stdlib/commit/5b8deb1707b3e84534d70d2ac20253de39151947) - **bench:** update random value generation [(#6381)](https://github.com/stdlib-js/stdlib/pull/6381) _(by Harsh)_
+-   [`5b8deb1`](https://github.com/stdlib-js/stdlib/commit/5b8deb1707b3e84534d70d2ac20253de39151947) - **bench:** update random value generation [(#6381)](https://github.com/stdlib-js/stdlib/pull/6381) _(by Harsh Yadav)_
 
 </details>
 
@@ -42,7 +42,7 @@
 
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 
 </section>
